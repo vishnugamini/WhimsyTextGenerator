@@ -1,0 +1,216 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #e0e0e0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    max-width: 1600px; /* Increased max-width */
+    padding: 20px;
+}
+
+.left-widget, .right-widget {
+    background-color: #1c1e24;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 220px; /* Increased width */
+    color: #e0e0e0;
+}
+
+.left-widget h2, .right-widget h3 {
+    margin-top: 0;
+}
+
+.left-widget a, .right-widget a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.left-widget a:hover, .right-widget a:hover {
+    text-decoration: underline;
+}
+
+.chat-container {
+    background-color: #1c1e24;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.chat-window {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    display: flex;
+    padding: 10px;
+    background-color: #333;
+    border-top: 1px solid #444;
+}
+
+input[type="text"] {
+    flex: 4;
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+input[type="number"] {
+    flex: 1;
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder {
+    color: #bbb;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+}
+
+#stopButton {
+    background-color: #dc3545;
+}
+
+#stopButton:hover {
+    background-color: #c82333;
+}
+
+.message-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 6px;
+    max-width: 80%;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.message.user {
+    background-color: #007BFF;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.message.ai {
+    background-color: #444;
+    color: #e0e0e0;
+    align-self: flex-start;
+}
+
+.copy-glyph {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/?size=100&id=s30bO0DNz4I5&format=png&color=000000'); /* Example icon from Icons8 */
+    background-size: cover;
+}
+
+#notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#notification.show {
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Enhanced right widget design */
+.widget-top, .widget-bottom {
+    background-color: #2c2f36;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.widget-top h3, .widget-bottom h3 {
+    margin-top: 0;
+    color: #ff9f1c;
+}
+
+.widget-top p, .widget-bottom p {
+    margin: 5px 0;
+}
+
+
+
+.widget-bottom p strong {
+    color: #2ec4b6;
+}
