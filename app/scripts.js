@@ -48,13 +48,13 @@ async function sendPrompt() {
         if (response.ok) {
             const reader = response.body.getReader();
             const decoder = new TextDecoder();
-            responseMessage.textContent = ''; // Clear previous content
+            responseMessage.textContent = ''; 
 
             while (true) {
                 const { done, value } = await reader.read();
                 if (done) break;
                 const textChunk = decoder.decode(value, { stream: true });
-                responseMessage.innerHTML += textChunk.replace(/\n/g, '<br>'); // Preserve line breaks
+                responseMessage.innerHTML += textChunk.replace(/\n/g, '<br>'); 
                 responseContainer.querySelector('.copy-glyph').dataset.text = responseMessage.innerHTML;
                 chatWindow.scrollTop = chatWindow.scrollHeight;
             }
@@ -89,7 +89,7 @@ function createMessageContainer(messageElement, copyGlyph) {
 function createMessageElement(text, sender) {
     const message = document.createElement('div');
     message.className = `message ${sender}`;
-    message.innerHTML = text.replace(/\n/g, '<br>'); // Preserve line breaks
+    message.innerHTML = text.replace(/\n/g, '<br>'); 
     return message;
 }
 
