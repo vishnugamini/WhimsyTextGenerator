@@ -5,7 +5,7 @@ WhimsyChat is a decoder-only model that generates hilarious content between pers
 ## REFERENCE
 
 - **`pic.png`**: ![Screenshot](assets/pic-1.png)
-- **`video.mp4`**: [Watch Demo](./assets/video%20-%201.mp4)
+- **`video.mp4`**: [Watch Demo](assets/video%20-%201.mp4)
 - 
 ## Model Information
 
