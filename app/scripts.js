@@ -1,5 +1,11 @@
 document.getElementById('sendButton').addEventListener('click', sendPrompt);
 document.getElementById('stopButton').addEventListener('click', stopGenerating);
+document.getElementById('initialText').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        document.getElementById('sendButton').click();
+    }
+});
 
 let controller;
 
