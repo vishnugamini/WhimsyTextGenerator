@@ -16,7 +16,7 @@ body {
     align-items: flex-start;
     height: 100%;
     width: 100%;
-    max-width: 1600px; /* Increased max-width */
+    max-width: 1600px; 
     padding: 20px;
 }
 
@@ -26,7 +26,7 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 10px;
-    width: 220px; /* Increased width */
+    width: 220px; 
     color: #e0e0e0;
 }
 
@@ -163,7 +163,7 @@ button {
     cursor: pointer;
     width: 20px;
     height: 20px;
-    background-image: url('https://img.icons8.com/?size=100&id=s30bO0DNz4I5&format=png&color=000000'); /* Example icon from Icons8 */
+    background-image: url('https://img.icons8.com/?size=100&id=s30bO0DNz4I5&format=png&color=000000'); 
     background-size: cover;
 }
 
@@ -189,7 +189,6 @@ button {
     display: none;
 }
 
-/* Enhanced right widget design */
 .widget-top, .widget-bottom {
     background-color: #2c2f36;
     padding: 15px;
