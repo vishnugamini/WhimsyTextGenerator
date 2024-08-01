@@ -3,9 +3,19 @@
 WhimsyChat is a decoder-only model that generates hilarious content between personas of itself. The project includes a beautiful interactive frontend. Follow the instructions below to set up and run the application.
 
 ## REFERENCE
+### Option 1: Link to Video File
+- **`pic-1.png`**: ![Screenshot](./assets/pic-1.png)
+- **`video - 1.mp4`**: [Watch Demo](./assets/video%20-%201.mp4)
 
-- **`video-1.mp4`**: ![Screenshot](assests/video - 1.mp4)
-- ![Screenshot](assests/pic-1.png)
+### Option 2: Image with Link to Video
+- **`pic-1.png`**: ![Screenshot](./assets/pic-1.png)
+- **`video - 1.mp4`**: [![Watch the video](./assets/pic-1.png)](./assets/video%20-%201.mp4)
+
+## Model Information
+
+- Trained on 1 million characters.
+- Contains 5 million trainable parameters.
+
 
 ## Instructions
 
@@ -28,10 +38,6 @@ WhimsyChat is a decoder-only model that generates hilarious content between pers
 4. **Launch the Frontend**:
     - Open `index.html` in your preferred web browser.
 
-## Model Information
-
-- Trained on 1 million characters.
-- Contains 5 million trainable parameters.
 
 
 
