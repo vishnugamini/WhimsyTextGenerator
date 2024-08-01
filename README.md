@@ -11,7 +11,7 @@ WhimsyChat is a decoder-only model that generates hilarious content between pers
 
 2. **Navigate to the Project Directory**:
     ```sh
-    cd WhimsyChat
+    cd WhimsyChat-main
     ```
 
 3. **Run the Application**:
