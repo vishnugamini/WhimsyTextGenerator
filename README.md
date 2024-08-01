@@ -1,6 +1,5 @@
 # WhimsyChat
-
-WhimsyChat is a decoder-only model that generates hilarious content between personas of itself. The project includes a beautiful interactive frontend. Follow the instructions below to set up and run the application.
+WhimsyChat is a custom transformer model built by me using a dataset of 1 million characters and featuring 5 million trainable parameters. This decoder-only model generates hilarious content between personas of itself. The project includes a beautiful interactive frontend. Follow the instructions below to set up and run the application.
 
 ## Instructions
 
