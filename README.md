@@ -29,7 +29,7 @@
 
 - Trained on 1 million characters.
 - Contains 5 million trainable parameters.
-- Context window : 128 tokens
+- Context window : 256 tokens
 
 ## REFERENCE
 - **`pic-1.png`**: ![Screenshot](assests/pic-1.png)
