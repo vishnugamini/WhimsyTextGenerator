@@ -5,7 +5,7 @@ from model_architecture import BigramLanguageModel
 import encode_decode
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 generator = BigramLanguageModel()
