@@ -33,7 +33,7 @@
 
 ## REFERENCE
 ![Screenshot](/assests/pic-1.png)
-- **`video-1.mp4`**: [![Watch Demo]](https://vimeo.com/993884106)
+- **`video-1.mp4`**: ![[Watch Demo]](https://vimeo.com/993884106)
 
 
 
