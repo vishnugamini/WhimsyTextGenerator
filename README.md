@@ -32,7 +32,7 @@
 - Context window : 256 tokens
 
 ## REFERENCE
-- **`pic-1.png`**: ![Screenshot](assests/pic-1.png)
-- **`video-1.mp4`**: [Watch Demo]<div style="padding:53.13% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/993884106?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="video - 1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+- **`pic-1.png`**: ![Screenshot](assets/pic-1.png)
+- **`video-1.mp4`**: [![Watch Demo](assets/pic-1.png)](https://vimeo.com/993884106)
 
 
