@@ -32,7 +32,7 @@
 - Context window : 256 tokens
 
 ## REFERENCE
-[Screenshot](/assests/pic-1.png)
+![Screenshot](/assests/pic-1.png)
 - **`video-1.mp4`**: [![Watch Demo]](https://vimeo.com/993884106)
 
 
