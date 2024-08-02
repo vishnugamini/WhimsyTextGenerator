@@ -36,8 +36,4 @@
 - **`video-1.mp4`**: [![Watch Demo]](https://vimeo.com/993884106)
 
 
-<!-- Include the custom element script -->
-<script type="module" src="https://cdn.jsdelivr.net/npm/lite-vimeo-embed/+esm"></script>
 
-<!-- Use the element. You may define uses before the scripts are parsed and executed. -->
-<lite-vimeo videoid="357274789"></lite-vimeo>
