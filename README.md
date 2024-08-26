@@ -1,5 +1,5 @@
 # WhimsyChat
-- WhimsyChat is a custom transformer model built by me using a dataset of 1 million characters and featuring 5 million trainable parameters.
+- WhimsyChat is a custom transformer model built by me using a dataset of 10 million tokens and featuring 5 million trainable parameters.
 - This decoder-only model generates hilarious content between personas of itself. You give it context, and it continues to augment data to those words.
 - Users can also include token count, a measure that tells the model how many tokens to generate. 
 - The project includes a beautiful interactive frontend. Follow the instructions below to set up and run the application.
