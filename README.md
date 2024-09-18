@@ -10,17 +10,6 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 - **Recursive Token Feeding**: Each generated token is fed back into the model, enabling it to build upon the existing context.
 - **Context Maintenance**: Through `token embeddings` and `positional embeddings`, the model understands not just the words themselves but also their position in the sequence.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Information](#model-information)
-- [How It Works](#how-it-works)
-- [Inspiration](#inspiration)
-- [Reference](#reference)
-- [License](#license)
-
 ## Features
 
 - **Decoder-Only Transformer Architecture**: Leverages principles from "Attention is All You Need," focusing on the decoder part of the transformer to generate text.
