@@ -55,10 +55,6 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 - **Architecture**: Decoder-only transformer model inspired by "Attention is All You Need."
 - **Embedding Layers**: Utilizes both token embeddings and positional embeddings to maintain context and sequence information.
 
-## Inspiration
-
-WhimsyChat draws inspiration from the groundbreaking work in the ["Attention is All You Need"](https://arxiv.org/abs/1706.03762) paper. By implementing a decoder-only transformer model, it showcases how powerful and efficient language models can be built using attention mechanisms without relying on recurrent architectures.
-
 ## Reference
 
 ![Screenshot](/assets/pic-1.png)
