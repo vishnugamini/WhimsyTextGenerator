@@ -1,6 +1,6 @@
 # WhimsyChat
 
-WhimsyChat is a custom decoder-only transformer model inspired by the seminal paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762). It generates hilarious and whimsical content between personas of itself. By providing it with context, the model continues to augment those words, creating engaging and entertaining dialogues.
+WhimsyChat is a custom decoder-only transformer model inspired by paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762). It generates hilarious and whimsical content between personas of itself. By providing it with context, the model continues to augment those words, creating engaging and entertaining dialogues.
 
 ## How It Works
 
