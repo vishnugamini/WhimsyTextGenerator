@@ -12,7 +12,7 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 
 ## Features
 
-- **Decoder-Only Transformer Architecture**: Leverages principles from "Attention is All You Need," focusing on the decoder part of the transformer to generate text.
+- **Decoder-Only Transformer Architecture**: Leverages principles from "Attention is All You Need," focusing on the **decoder part** of the transformer to generate text.
 - **Recursive Token Feeding**: Feeds all tokens back into itself to produce the next token, ensuring coherent and contextually relevant output.
 - **Token and Positional Embeddings**: Uses token embeddings and positional embeddings to maintain context and understand the sequence of words.
 - **Customizable Token Generation**: Allows users to specify the number of tokens to generate, offering control over the length and depth of the generated content.
@@ -49,11 +49,9 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 
 ## Model Information
 
-- **Dataset**: Trained on 1 million characters.
-- **Parameters**: Contains 5 million trainable parameters.
-- **Context Window**: 256 tokens.
-- **Architecture**: Decoder-only transformer model inspired by "Attention is All You Need."
-- **Embedding Layers**: Utilizes both token embeddings and positional embeddings to maintain context and sequence information.
+- Trained on 1 million characters.
+- Contains 5 million trainable parameters.
+- Context window : 256 tokens
 
 ## Reference
 
