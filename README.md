@@ -8,7 +8,7 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 
 - **Self-Attention Mechanism**: Allows the model to weigh the importance of different tokens in the input sequence when generating the next token.
 - **Recursive Token Feeding**: Each generated token is fed back into the model, enabling it to build upon the existing context.
-- **Context Maintenance**: Through token and positional embeddings, the model understands not just the words themselves but also their position in the sequence.
+- **Context Maintenance**: Through `token embeddings` and `positional embeddings`, the model understands not just the words themselves but also their position in the sequence.
 
 ## Table of Contents
 
