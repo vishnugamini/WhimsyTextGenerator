@@ -55,7 +55,7 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 
 ## Reference
 
-![Screenshot](/assets/pic-1.png)
+![Screenshot](assests/pic-1.png)
 
 - **Demo Video**: [Watch Demo](https://vimeo.com/993884106)
 
