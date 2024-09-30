@@ -57,8 +57,7 @@ WhimsyChat adopts the transformer architecture's decoder component, focusing on 
 - Context window : 256 tokens
 
 ## Reference
-![Screenshot](assests/pic-1.png)
 
-- **Demo Video**: [Watch Demo](https://vimeo.com/993884106)
-add the ss here as a thumbnail
+[![Demo Video](assets/pic-1.png)](https://vimeo.com/993884106)
+
 
